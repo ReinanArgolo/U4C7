@@ -60,12 +60,12 @@ void servo_sweep() {
 // Rotina para posições fixas com atraso de 5 segundos cada
 void servo_positions_test() {
     // Posição ~180°: duty = 2400µs
-    servo_position(2400, 5000);
     printf("Posição 180°\n");
+    servo_position(2400, 5000);
     // Posição ~90°: duty = 1470µs
-    servo_position(1470, 5000);
     printf("Posição 90°\n");
+    servo_position(1470, 5000);
     // Posição ~0°: duty = 500µs
-    servo_position(500, 5000);
     printf("Posição 0°\n");
+    servo_position(500, 5000);
 }
