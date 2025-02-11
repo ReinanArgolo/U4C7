@@ -21,7 +21,7 @@ Este projeto, desenvolvido para a atividade U4C7 do EmbarcaTech, demonstra o con
 4. Para simulação, carregue o projeto na plataforma Wokwi.
 
 ## Vídeo de Demonstração
-Assista à demonstração do projeto: [Clique aqui](https://link-para-video.com)
+Assista à demonstração do projeto: [Clique aqui](https://youtu.be/Xl0z3el6P3I)
 
 ## Autor
 Reinan Lopes Argolo
