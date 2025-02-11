@@ -2,7 +2,7 @@
 #include "hardware/pwm.h"
 #include "pico/stdlib.h"
 
-const uint SERVO_PIN = 22;
+const uint SERVO_PIN = 12;
 const uint16_t PERIOD = 20000; // Período de 20ms para ~50Hz
 const float DIVIDER_PWM = 125.0f; // Atualizado para que 1 count ≈ 1µs
 const uint16_t STEPS = 100;
@@ -13,6 +13,8 @@ void init_pwm() {
     slice = pwm_gpio_to_slice_num(SERVO_PIN); // Obtém o slice do PWM
     pwm_set_clkdiv(slice, DIVIDER_PWM);
     pwm_set_wrap(slice, PERIOD);
+    pwm_set_enabled(slice, true); // Enable the PWM output
+
 }
 
 // Atualizado: usa o canal PWM correto para definir o ciclo ativo em µs

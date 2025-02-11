@@ -4,6 +4,7 @@
 #include "inc/include.h"
 
 
+
 int main()
 {
     stdio_init_all();
@@ -15,6 +16,7 @@ int main()
     sleep_ms(1000);
     servo_positions_test();
 
+    
     while (true) {
         servo_sweep();
     }
